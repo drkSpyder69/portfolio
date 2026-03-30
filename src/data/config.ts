@@ -128,6 +128,3 @@ export const experienceData = [
     duration: ""
   }
 ];
-
-// Empty certificates array — add your certificates here when available
-export const certificatesData: any[] = [];

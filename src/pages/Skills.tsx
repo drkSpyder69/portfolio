@@ -1,20 +1,7 @@
 import Skills from "@/components/Skills";
+import { currentlyLearning } from "@/data/config";
 
 const SkillsPage = () => {
-  const certifications = [
-    "Responsive Web Design - freeCodeCamp",
-    "JavaScript Algorithms - freeCodeCamp",
-    "Database Design Fundamentals",
-    "Git Version Control"
-  ];
-
-  const learningGoals = [
-    "Advanced React Patterns",
-    "Cloud Architecture (AWS)",
-    "DevOps & CI/CD",
-    "Machine Learning Basics"
-  ];
-
   return (
     <div className="min-h-screen bg-background pt-20">
       <Skills />
@@ -24,20 +11,20 @@ const SkillsPage = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8">
-              {/* Certifications */}
+              {/* Currently Learning */}
               <div className="glass-card p-8 rounded-2xl">
                 <h3 className="text-2xl font-heading font-semibold mb-6">
-                  <span className="gradient-text">Certifications</span>
+                  Currently <span className="gradient-text">Learning</span>
                 </h3>
                 <div className="space-y-4">
-                  {certifications.map((cert, index) => (
+                  {currentlyLearning.map((item, index) => (
                     <div
-                      key={cert}
+                      key={item}
                       className="flex items-center gap-3 p-3 rounded-lg hover:bg-card-glass/30 transition-colors"
                       style={{ animationDelay: `${index * 0.1}s` }}
                     >
                       <div className="w-2 h-2 bg-gradient-primary rounded-full"></div>
-                      <span className="text-foreground">{cert}</span>
+                      <span className="text-foreground">{item}</span>
                     </div>
                   ))}
                 </div>
@@ -49,7 +36,7 @@ const SkillsPage = () => {
                   Learning <span className="gradient-text">Goals</span>
                 </h3>
                 <div className="space-y-4">
-                  {learningGoals.map((goal, index) => (
+                  {["Kotlin & Jetpack Compose", "Firebase & Cloud Messaging", "REST API Integration", "MVVM Architecture", "Android Performance Optimization"].map((goal, index) => (
                     <div
                       key={goal}
                       className="flex items-center gap-3 p-3 rounded-lg hover:bg-card-glass/30 transition-colors"
@@ -75,7 +62,7 @@ const SkillsPage = () => {
                   </div>
                   <h4 className="font-semibold mb-2 text-primary">Clean Code</h4>
                   <p className="text-sm text-muted-foreground">
-                    Writing maintainable, readable code that follows best practices
+                    Writing maintainable, readable code following OOP and SOLID principles
                   </p>
                 </div>
                 <div className="text-center">
@@ -84,7 +71,7 @@ const SkillsPage = () => {
                   </div>
                   <h4 className="font-semibold mb-2 text-secondary">Performance</h4>
                   <p className="text-sm text-muted-foreground">
-                    Optimizing applications for speed and efficiency
+                    Optimizing Android apps for smooth 60fps experiences and low memory usage
                   </p>
                 </div>
                 <div className="text-center">
@@ -93,7 +80,7 @@ const SkillsPage = () => {
                   </div>
                   <h4 className="font-semibold mb-2 text-accent">Innovation</h4>
                   <p className="text-sm text-muted-foreground">
-                    Embracing new technologies and creative solutions
+                    Embracing modern Android patterns and adapting to new frameworks quickly
                   </p>
                 </div>
               </div>
