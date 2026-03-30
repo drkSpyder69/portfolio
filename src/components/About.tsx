@@ -1,4 +1,4 @@
-import { personalInfo, aboutHighlights, aboutJourney } from "@/data/config";
+import { personalInfo, aboutHighlights, aboutJourney, personalDetails } from "@/data/config";
 
 const About = () => {
   return (
@@ -51,6 +51,21 @@ const About = () => {
                       {personalInfo.phone}
                     </a>
                   </div>
+                </div>
+              </div>
+
+              {/* Deep Personal Info */}
+              <div className="glass-card p-8 rounded-2xl">
+                <h3 className="text-2xl font-heading font-semibold mb-6 text-primary">
+                  Personal Details
+                </h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-muted-foreground text-sm">
+                  {personalDetails.map((detail, idx) => (
+                    <div key={idx} className="flex flex-col">
+                      <span className="font-semibold text-accent">{detail.label}</span>
+                      <span className="break-words">{detail.value}</span>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>

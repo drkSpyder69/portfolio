@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Certificates from "@/components/Certificates";
+import Background from "@/components/Background";
 import Contact from "@/components/Contact";
 
 const Landing = () => {
@@ -21,6 +22,7 @@ const Landing = () => {
           <Skills />
           <Projects />
           <Certificates />
+          <Background />
           <Contact />
         </main>
       </div>

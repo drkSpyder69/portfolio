@@ -77,5 +77,57 @@ export const currentlyLearning = [
   "Kotlin", "Jetpack Compose", "Firebase", "REST APIs"
 ];
 
-// Replaced with empty array so that old web dev certs do not show up
+export const personalDetails = [
+  { label: "Father's Name", value: "Khan Solaiman Hossain" },
+  { label: "Mother's Name", value: "Mrs. Sadia Khan" },
+  { label: "Date of Birth", value: "21st December 2004" },
+  { label: "Nationality", value: "Bangladeshi (By birth)" },
+  { label: "NID No", value: "2872460643" },
+  { label: "Religion", value: "Islam" },
+  { label: "Gender", value: "Male" },
+  { label: "Height", value: "5ft. 6inch" },
+  { label: "Blood Group", value: "A+" },
+  { label: "Marital Status", value: "Unmarried" }
+];
+
+export const educationData = [
+  {
+    degree: "BSc (Honours) - Running",
+    institution: "Northern University of Business and Technology Khulna",
+    department: "CSE Department",
+    year: "2023 - 2027",
+    gpa: ""
+  },
+  {
+    degree: "HSC",
+    institution: "Govt. Sundarban Adarsha College, Khulna",
+    department: "Science",
+    year: "2021",
+    gpa: "GPA: 5.00"
+  },
+  {
+    degree: "SSC",
+    institution: "Saint Joseph’s High School, Khulna",
+    department: "Science",
+    year: "2019",
+    gpa: "GPA: 5.00"
+  }
+];
+
+export const experienceData = [
+  {
+    role: "Computer Operator",
+    company: "Joy Garments",
+    location: "Khalpar, West Uttara, Dhaka-1324",
+    duration: ""
+  },
+  {
+    role: "Salesman",
+    company: "BATA",
+    location: "Uttara shopping complex, S.R tower, Sector-7, Uttara, Dhaka-1230",
+    duration: ""
+  }
+];
+
+// Empty certificates array — add your certificates here when available
 export const certificatesData: any[] = [];
