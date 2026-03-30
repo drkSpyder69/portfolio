@@ -32,7 +32,7 @@ const App = () => (
             <footer className="py-8 border-t border-border/20">
               <div className="container mx-auto px-6 text-center">
                 <p className="text-muted-foreground">
-                  © 2025 Aqib Jawwad Nahin. Built with passion and modern web technologies.
+                  © 2025 Khan Sadman Sakib. Built with passion and modern web technologies.
                 </p>
               </div>
             </footer>

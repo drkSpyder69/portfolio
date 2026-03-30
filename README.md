@@ -1,4 +1,4 @@
-# 🚀 Portfolio - Aqib Jawwad Nahin
+# 🚀 Portfolio - Khan Sadman Sakib
 
 <div align="center">
 
@@ -38,9 +38,9 @@
 
 ## 🌟 Overview
 
-A modern, responsive portfolio website showcasing my skills as a **Full Stack Developer**. Built with cutting-edge technologies and designed with a focus on performance, accessibility, and user experience.
+A modern, responsive portfolio website showcasing my skills as an **Android App Developer**. Built with cutting-edge technologies and designed with a focus on performance, accessibility, and user experience.
 
-**🔗 Live Demo:** [aqibjawwad.me](https://aqibjawwad.me)
+**🔗 Live Demo:** [sadmansakib.me](https://sadmansakib.me)
 
 ---
 
@@ -110,7 +110,7 @@ A modern, responsive portfolio website showcasing my skills as a **Full Stack De
 
 ```bash
 # Clone the repository
-git clone https://github.com/Aqib2607/portfolio.git
+git clone https://github.com/KhanSadman/portfolio.git
 cd portfolio
 
 # Install dependencies
@@ -323,7 +323,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ```
 MIT License
-Copyright (c) 2025 Aqib Jawwad Nahin
+Copyright (c) 2025 Khan Sadman Sakib
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -340,12 +340,12 @@ copies or substantial portions of the Software.
 
 ## 👨‍💻 About the Developer
 
-**Aqib Jawwad Nahin** - Full Stack Web Developer
+**Khan Sadman Sakib** - Professional App Developer
 
-- 🌐 **Website:** [aqibjawwad.me](https://aqibjawwad.me)
-- 📧 **Email:** [aqibjawwad2607@gmail.com](mailto:aqibjawwad2607@gmail.com)
-- 💼 **LinkedIn:** [linkedin.com/in/aqib-jawwad](https://linkedin.com/in/aqib-jawwad)
-- 🐱 **GitHub:** [github.com/Aqib2607](https://github.com/Aqib2607)
+- 🌐 **Website:** [sadmansakib.me](https://sadmansakib.me)
+- 📧 **Email:** [khansakib.2244@gmail.com](mailto:khansakib.2244@gmail.com)
+- 💼 **LinkedIn:** [linkedin.com/in/](https://linkedin.com/in/)
+- 🐱 **GitHub:** [github.com/KhanSadman](https://github.com/KhanSadman)
 
 ---
 
@@ -364,8 +364,8 @@ copies or substantial portions of the Software.
 
 **⭐ Star this repository if you find it helpful!**
 
-**Built with ❤️ by [Aqib Jawwad Nahin](https://github.com/Aqib2607)**
+**Built with ❤️ by [Khan Sadman Sakib](https://github.com/KhanSadman)**
 
-![Profile Views](https://komarev.com/ghpvc/?username=Aqib2607&color=brightgreen&style=for-the-badge)
+![Profile Views](https://komarev.com/ghpvc/?username=KhanSadman&color=brightgreen&style=for-the-badge)
 
 </div>

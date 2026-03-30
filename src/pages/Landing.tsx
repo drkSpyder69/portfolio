@@ -10,8 +10,8 @@ const Landing = () => {
   return (
     <>
       <Helmet>
-        <link rel="canonical" href="https://aqibjawwad.me/" />
-        <meta property="og:url" content="https://aqibjawwad.me/" />
+        <link rel="canonical" href="https://sadmansakib.me/" />
+        <meta property="og:url" content="https://sadmansakib.me/" />
       </Helmet>
       <div className="min-h-screen bg-background">
         <Hero />

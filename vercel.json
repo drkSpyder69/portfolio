@@ -5,10 +5,10 @@
       "has": [
         {
           "type": "host",
-          "value": "www.aqibjawwad.me"
+          "value": "www.sadmansakib.me"
         }
       ],
-      "destination": "https://aqibjawwad.me/:path*",
+      "destination": "https://sadmansakib.me/:path*",
       "permanent": true
     }
   ],

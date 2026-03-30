@@ -12,10 +12,10 @@ const ProjectsPage = () => {
     return (
         <>
             <Helmet>
-                <title>Projects - Aqib Jawwad Nahin</title>
-                <link rel="canonical" href="https://aqibjawwad.me/projects" />
-                <meta property="og:url" content="https://aqibjawwad.me/projects" />
-                <meta property="og:title" content="Projects - Aqib Jawwad Nahin" />
+                <title>Projects - Khan Sadman Sakib</title>
+                <link rel="canonical" href="https://sadmansakib.me/projects" />
+                <meta property="og:url" content="https://sadmansakib.me/projects" />
+                <meta property="og:title" content="Projects - Khan Sadman Sakib" />
             </Helmet>
             <div className="min-h-screen bg-background text-foreground pt-24 pb-20">
                 <div className="container mx-auto px-6">
